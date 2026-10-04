@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sepsis-cdss"
+version = "0.1.0"
+description = "Explainable, human-supervised sepsis clinical decision-support prototype (research code, not for clinical use)"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "xgboost>=2.0",
+    "scipy",
+]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.40"]
+dev = ["pytest", "streamlit>=1.40"]
+
+[project.scripts]
+sepsis-cdss = "sepsis_cdss.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

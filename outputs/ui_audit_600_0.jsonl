@@ -1,0 +1,1 @@
+{"actor": "system", "event": "models_trained", "hash": "1c97390d38a327230a72a691512c5cdf2c6cc3a741f0b3854ef9bd0a385da373", "payload": {"n_train_patients": 360, "phenotype_sizes": [55, 32, 20], "threshold": 0.6634700894355774}, "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000", "seq": 0, "ts": "2026-10-04T06:43:34.301977+00:00"}

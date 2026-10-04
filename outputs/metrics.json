@@ -1,0 +1,39 @@
+{
+  "sepsis_prediction": {
+    "auroc": 0.9964863253948507,
+    "auprc": 0.9871924070855799,
+    "threshold": 0.6933375597000122,
+    "sensitivity": 0.963789981894991,
+    "specificity": 0.9826438421302901,
+    "prevalence": 0.16456450491607905,
+    "n": 10069
+  },
+  "threshold": 0.6933375597000122,
+  "phenotype_sizes": [
+    117,
+    41,
+    67
+  ],
+  "cases": [
+    {
+      "case_id": "case-001",
+      "risk": 0.9962971806526184,
+      "alert": "HIGH",
+      "status": "approved"
+    },
+    {
+      "case_id": "case-002",
+      "risk": 0.9810177087783813,
+      "alert": "HIGH",
+      "status": "overridden"
+    },
+    {
+      "case_id": "case-003",
+      "risk": 0.996277391910553,
+      "alert": "HIGH",
+      "status": "pending_review"
+    }
+  ],
+  "audit_ok": true,
+  "audit_records": 6
+}
